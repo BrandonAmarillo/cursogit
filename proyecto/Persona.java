@@ -3,10 +3,12 @@ package proyecto;
 public class Persona {
     private String nombre;
     private String apellido;
+    private int dni;
 
-    Persona(String nombre, String apellido) {
+    Persona(String nombre, String apellido, int dni) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.dni = dni;
     }
 
     public void setNombre(String nombre){
@@ -23,5 +25,13 @@ public class Persona {
 
     public String getApellido() {
         return apellido;
+    }
+
+    public void setDni(int dni){
+        this.dni = dni;
+    }
+
+    public int getDni(){
+        return dni;
     }
 }
