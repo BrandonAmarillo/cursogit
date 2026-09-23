@@ -6,5 +6,7 @@ public class Main {
 
         int result = 5 - 3;
         System.out.println("Resultado: " + result);
+
+        System.out.print("Mesaje en feature/model");
     }
 }
