@@ -8,5 +8,6 @@ public class Main {
         System.out.println("Resultado: " + result);
 
         Persona persona = new Persona("Brandon", "Amarillo");
+        System.out.print("Mesaje en feature/model");
     }
 }
